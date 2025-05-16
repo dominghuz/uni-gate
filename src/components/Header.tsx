@@ -101,10 +101,10 @@ export default function Header() {
                 </MobileNavLink>
               ))}
               
-<Link href="/login">
-              <button className="w-full mt-2 bg-gradient-to-br from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full font-bold shadow-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
-                Acesso Restrito
-              </button>
+              <Link href="/login">
+                <button className="w-full mt-2 bg-gradient-to-br from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full font-bold shadow-lg focus:outline-none focus:ring-2 focus:ring-indigo-400">
+                  Acesso Restrito
+                </button>
               </Link>
             </div>
           )}
